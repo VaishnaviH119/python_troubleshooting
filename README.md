@@ -96,8 +96,3 @@ WARNING: No scores on record for 'Bob'
   input crash the whole process, but don't hide the gap either — log it so
   it can be investigated.
 
-## Resume/portfolio line
-Debugged a `ZeroDivisionError` in a grade-processing script by tracing the
-failing call via the traceback, identified missing input data as the root
-cause, and implemented a fix using Python's `logging` module to flag
-anomalies instead of crashing.
